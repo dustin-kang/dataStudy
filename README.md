@@ -19,7 +19,7 @@
 - [데이터 세트](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/002_데이터_세트.md)
 - [데이터 처리와 인코딩](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/003_데이터_전처리와_인코딩.md)
 - [PCA와 차원축소](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/004_PCA와_차원축소.md)
-- [클러스터링(군집화)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/005_클러스터링과 Kmean알고리즘.md)
+- [클러스터링(군집화)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/005_클러스터링과_Kmean알고리즘.md)
 
 ## Deep Learning
 [📘]() / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
