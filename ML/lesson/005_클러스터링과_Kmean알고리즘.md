@@ -4,12 +4,15 @@
 ## 군집화 종류
 
 ### Hirerachical (계층적 군집 분석)
+![hirerachical](https://user-images.githubusercontent.com/55238671/209803324-cf059d9c-1509-4e0f-b182-13b6f8aefee5.png)
+
 어떠한 포인트에서 **점점 크게 합쳐나가가거나** **점점 클러스터로 나눠가면서** **단계적으로** 클러스터링 하는 방법 (Agglomerative, Divisive)
 
 ### Point Assignment (분할 군집 분석)
 클러스터의 갯수를 미리 선정한 다음, 하나씩 다시 계산해서 클러스터에 배정하는 방식 **_e.g. K-Means_**
 
 ### Hard vs Soft Clustering
+<img src="https://user-images.githubusercontent.com/55238671/209803203-4d15d0ce-2e7d-4d98-a6d2-50395e5d3177.png" width=400>
 
 - **Hard** : 데이터는 무조건 하나의 클러스터에만 할당합니다.
 - **Soft** : 여러가지의 클러스터에 확률적으로 할당할 수 있습니다.
@@ -30,6 +33,9 @@
 # K- Means 클러스터링
 > 특성이 비슷한 데이터를 같은 그룹으로 묶어주는 클러스터링 알고리즘으로, **k 개의 군집 개수를 정해 군집의 중심점을 예측하고 거리를 비교하여 군집을 결정**합니다. (변동이 없을 때 까지 반복한다.)
 
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/55238671/209803541-885a888a-d213-4d91-9dfd-77ec61f34735.png">
+
+
 ```py
 from sklearn.cluster import KMeans
 kmean = KMean(n_cluster=3)
@@ -49,6 +55,8 @@ kmean.cluster_centers_ # 중심점 확인 ([x,y])
 - 데이터가 잘 모여있는 경우에 효과적이지 노이즈가 많은 경우에는 효과적이지 않습니다.
 
 ### K 갯수 결정하는 방법
+![elbow](https://user-images.githubusercontent.com/55238671/209803452-bf900b59-303e-4b13-80de-ab222e33a602.png)
+
 - Eyeball Method : 사람의 주관적인 판단을 통해 임의로 지정하는 방법
 - Metrics : 객관적인 지표로 최적화된 K를 선택하는 방법
 
@@ -93,7 +101,7 @@ irisDF.groupby('cluster')['score_samples'].mean() # 각 클러스터의 평균 �
 [🔗 머신러닝 - 7. K-평균 클러스터링(K-means Clustering) - 귀퉁이 서재](https://bkshin.tistory.com/entry/머신러닝-7-K-평균-군집화-K-means-Clustering)
 
 # 다양한 군집 알고리즘
-#### Hierarchical (계층적 군집화)
+### Hierarchical (계층적 군집화)
 -  **덴드로그램 모형(Dendrogram)** 으로 계층적으로 유사한 그룹끼리 군집화를 수행하는 알고리즘입니다.
 - 클러스터 갯수를 선정할 필요 없습니다.
 - 데이터 크기가 작은 문제에 적용됩니다.
@@ -102,6 +110,8 @@ irisDF.groupby('cluster')['score_samples'].mean() # 각 클러스터의 평균 �
 
 
 ### Mean Shift (평균이동)
+<img src="https://velog.velcdn.com/images%2Fyepark%2Fpost%2F57d1c47f-723e-4c05-bb22-3030a081d510%2F평균이동.PNG">
+
 - 밀도가 가장 높은 쪽으로 군집 중심점이 이동하면서 군집화를 수행한다.
 - 일반 업무 기반의 데이터셋 보다는 컴퓨터 비전 영역에서 개체를 구분하거나 움직임을 추척하는데 수행한다.
 
