@@ -1,7 +1,7 @@
 > #### **🔍 BoostCourse 자가진단 문제들을 참고했습니다.**
 
 ## Contents
-- [샘플 수와 배치 사이즈만으로 신경망 모델의 learning step의 수는?](https://github.com/dustin-kang/dataStudy/blob/main/DS/coding_warmup.md#1)
+- [샘플 수와 배치 사이즈만으로 신경망 모델의 learning step의 수는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#1)
 
 ---
 ## #1
