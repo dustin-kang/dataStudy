@@ -9,8 +9,13 @@
 
 ## Data Science
 [📘]() / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
+#### Pandas
 - [Pandas Wiki]()
 - []()
+#### Math
+
+#### 🚀 Quiz
+- [Warm-up]()
 
 ## Machine Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/ML/lesson) / [💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice) / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
@@ -36,6 +41,9 @@
 
 - [인공지능과 머신러닝]()
 - []()
+
+#### 🚀 Quiz
+- [Warm-up]()
 
 ## P.S.
 [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
