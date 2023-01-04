@@ -15,7 +15,7 @@
 #### Math
 
 #### 🚀 Quiz
-- [Warm-up]()
+- [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md)
 
 ## Machine Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/ML/lesson) / [💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice) / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
@@ -43,7 +43,7 @@
 - []()
 
 #### 🚀 Quiz
-- [Warm-up]()
+- [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md)
 
 ## P.S.
 [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
