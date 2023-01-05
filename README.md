@@ -14,8 +14,7 @@
 - [Pandas Wiki]()
 - []()
 #### Math
-- [선형대수의 기초]()
-- [선형방정식과 선형 시스템]()
+- [선형대수와 선형 시스템](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/001l_선형대수와_선형시스템.ipynb)
 - [선형 결합]()
 - [선형 독립과 선형 종속]()
 - [부분공간의 기저와 차원]()
