@@ -5,6 +5,7 @@
 - [Data Science](https://github.com/dustin-kang/dataStudy#data-science)
 - [Machine Learning](https://github.com/dustin-kang/dataStudy#machine-learning)
 - [Deep Learning](https://github.com/dustin-kang/dataStudy#deep-learning)
+- [Python](https://github.com/dustin-kang/dataStudy#Python)
 - [P.S.](https://github.com/dustin-kang/dataStudy#ps)
 
 ## Data Science
@@ -49,10 +50,14 @@
 #### 🚀 Quiz
 - [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md)
 
-## Python Basic
+## Python
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/Python/lesson) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 
-#### Python 
+#### Python Basic 
+- [Data Structure](https://github.com/dustin-kang/dataStudy/blob/main/Python/lesson/001_data_structure.md)
+
+#### Python Data
+
 
 ## P.S.
 [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
