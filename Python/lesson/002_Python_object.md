@@ -2,7 +2,7 @@
 > 🤔 객체 지향 언어인 파이썬을 이용해 어떠한 오브젝트 중심으로 개발을 해보아요.
 > 객체 지향 프로그래밍 언어는 **설계 중심사고**와 **재사용**을 줄이고자 만들어진 것입니다. [🔗](https://www.python.org/doc/essays/omg-darpa-mcc-position/)
 
-<img src="" width=500>
+<img width="813" alt="image" src="https://user-images.githubusercontent.com/55238671/210976638-f0cab41b-568a-42f6-ad9d-b6db3dd3a496.png">
 
 ## 클래스 만들기
 
