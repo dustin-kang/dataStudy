@@ -41,13 +41,18 @@
 - [Warm-up]()
 
 ## Deep Learning
-[📘]() / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
+[📘](https://github.com/dustin-kang/dataStudy/tree/main/DL) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 
 - [인공지능과 머신러닝]()
 - []()
 
 #### 🚀 Quiz
 - [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md)
+
+## Python Basic
+[📘](https://github.com/dustin-kang/dataStudy/tree/main/Python/lesson) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
+
+#### Python 
 
 ## P.S.
 [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
