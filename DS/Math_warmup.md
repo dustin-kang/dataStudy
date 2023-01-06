@@ -3,7 +3,9 @@
 ## Contents
 - [다음의 조건을 만족하는 행렬 C의 차원은?](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#1)
 - [다음 함수의 도함수로 적절한 것은?](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#2)
-
+- [벡터의 이해 문제](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#3)
+- [자연로그 문제](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#4)
+- [조건부 확률](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#5)
 ---
 ## #1
 #### 다음의 조건을 만족하는 행렬 $C$의 차원(Demension)은?
@@ -75,3 +77,39 @@
 
 
 ---
+
+## #5
+#### 아래 수식의 물음표에 들어갈 것으로 적절한 것은?
+> $$ P(B|A) = ?  $$
+
+- [ ] $\frac{P(B)}{P(A)}$
+- [ ] $\frac{P(A)}{P(B)}$
+- [ ] $\frac{P(A|B)P(B)}{P(A)}$
+- [ ] $\frac{P(A|B)P(A)}{P(B)}$
+
+<details> <summary>정답</summary>
+<strong>3번</strong>
+ https://ko.wikipedia.org/wiki/조건부_확률
+
+</details>
+
+
+---
+
+## #6
+#### 아래 수식의 물음표에 들어갈 것으로 적절한 것은?
+> $$ f(x,y) = xy^2, \frac{\partial f}{\partial x} ?  $$
+
+- [ ] $2xy$
+- [ ] $2y$
+- [ ] $y^2$
+- [ ] $xy^2$
+
+<details> <summary>정답</summary>
+<strong>3번</strong>
+- 위 partical f/partical x는 x 이외의 변수를 제외하 나머지 변수를 상수로 간주하고 미분하는 것을 말합니다.
+- 즉, x를 미분하면 1이므로 y^2만 남게되어 y^2가 되는 것 입니다.
+
+</details>
+
+- [편미분 - 위키백과](https://ko.wikipedia.org/wiki/편미분)
