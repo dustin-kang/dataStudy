@@ -4,6 +4,7 @@
 - [샘플 수와 배치 사이즈만으로 신경망 모델의 learning step의 수는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#1)
 - [다음 중 손실 함수에서 극소 값의 위치를 구하기 위해 사용하는 방법으 고르시오.](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#2)
 - [다음 아래 그래프르 나타내는 활성화 함수는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#3)
+- [다음 중 신경망에서 활성화함수가 필요한 가장 적절한 이유는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#4) 
 ---
 ## #1
 #### 학습 데이터셋의 총 샘플 수가 10,000개이고 batch size가 100인 신경망(neural network) 모델이 모든 데이터를 학습에 사용하는데 필요한 learning step의 수는?
@@ -62,4 +63,26 @@ s = steps: 몇 세트로 나누어 할 것인가. 5 세트
  
  시그모이드 함수는 인공 뉴런에 사용되는 활성화 함수로 로지스틱 함수라고도 합니다.
  0을 넘기면 1에 가깝게 그렇지 않으며 0에 가깝게 가중합을 출력합니다. 
+</details>
+
+---
+## #4
+#### 다음 중 신경망에서 활성화함수가 필요한 가장 적절한 이유는?
+
+
+- [ ] 계산복잡도를 줄이기 위해
+- [ ] 비선형 근사를 하기 위해
+- [ ] 수치의 오차를 줄이기 위해
+- [ ] 모델 파라미터 수를 늘리기 위해
+
+<details> <summary>정답</summary>
+<strong> 비선형 근차를 하기 위해 </strong>
+ 
+
+모든 활성화 함수의 공통점은 비선형 함수 이다!?
+그럼 왜 활성화 함수가 선형이면 안되는 이유가 무엇일까요?
+이유는 선형인 활성화 함수 l(x) = ax+b 를 겹겹이 쌓을 때, 
+여전히 같은 형태의 함수가 사용하게 됩니다.
+즉, 아무리 깊게 쌓아도 이점을 못살린다는 얘기죠.
+
 </details>
