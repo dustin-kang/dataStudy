@@ -18,6 +18,7 @@
 - [선형대수와 선형 시스템](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/001l_선형대수와_선형시스템.ipynb)
 - [선형 결합, 선형 독립, 부분공간의 기저와 차원](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/002l_선형결합과_선형독립.ipynb)
 - [선형 변환]()
+- [베이즈 통계학 기초](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/004l_베이즈_통계학_맛보기.md)
 
 #### 🚀 Quiz
 - [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md)
@@ -44,7 +45,7 @@
 ## Deep Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/DL) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 
-- [인공지능과 머신러닝]()
+- [딥러닝 기본 용어 설명](https://github.com/dustin-kang/dataStudy/blob/main/DL/lesson/001_딥러닝_기본_용어.md)
 - []()
 
 #### 🚀 Quiz
