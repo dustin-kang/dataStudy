@@ -4,7 +4,9 @@
 - [샘플 수와 배치 사이즈만으로 신경망 모델의 learning step의 수는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#1)
 - [다음 중 손실 함수에서 극소 값의 위치를 구하기 위해 사용하는 방법으 고르시오.](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#2)
 - [다음 아래 그래프르 나타내는 활성화 함수는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#3)
-- [다음 중 신경망에서 활성화함수가 필요한 가장 적절한 이유는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#4) 
+- [다음 중 신경망에서 활성화함수가 필요한 가장 적절한 이유는?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#4)
+- [다음 중 RNN에 대한 설명으로 올바르지 않은 것은?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#5)
+- [네트워크 파라미터 수에 해당되는 설명 중 틀린 것은?](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md#6)
 ---
 ## #1
 #### 학습 데이터셋의 총 샘플 수가 10,000개이고 batch size가 100인 신경망(neural network) 모델이 모든 데이터를 학습에 사용하는데 필요한 learning step의 수는?
@@ -85,4 +87,44 @@ s = steps: 몇 세트로 나누어 할 것인가. 5 세트
 여전히 같은 형태의 함수가 사용하게 됩니다.
 즉, 아무리 깊게 쌓아도 이점을 못살린다는 얘기죠.
 
+</details>
+
+---
+## #5
+#### 다음 중 RNN에 설명으로 올바르지 않은 것은?
+
+
+- [ ] RNN은 Hidden 노드가 방향을 가진 엣지로 연결되어 순환을 이루는 인공 신경망 구조의 한 종류 이다.
+- [ ] RNN은 Input 길이에 비례하여 모델 Parameter를 증가시킨다.
+- [ ] RNN은 input 길이가 길어질 수록, 역전파시 그래디언트가 점차 줄어 학습능력이 줄어든다.
+- [ ] RNN의 변형 종류로는 GRU, LSTM 등이 있다.
+
+<details> <summary>정답</summary>
+<strong> RNN은 Input 길이에 비례하여 모델 Parameter를 증가시킨다. </strong>
+- RNN은 연속형 데이터를 잘 처리하기 위해 고안된 신경망입니다. 
+- RNN은 Input 길이에 상관없이 **동일한 파라미터** 를 가지고 동작하는 모델입니다. 
+</details>
+
+---
+## #6
+#### 네트워크 파라미터 수에 해당되는 설명 중 틀린 것은? 
+다음 그림은 LeNET5의 구조를 도식화한 것이다. M@NxN로 표기된 부분에서 M은 출력 채널 수이고, N은 출력 feature map의 크기이다.
+> 예: 첫 번째 convolution 연산 후에 feature map은 총 6개가 생겨나고 각 채널의 feature map 크기는 28x28이다.
+
+이때, 네트워크 파라미터 수에 해당되는 설명 중 틀린 것은?  (단, 입력이미지의 채널은 1, convolution 연산에서의 strides는 모두 1, padding은 없다고 가정한다.)
+
+<img src="https://images.velog.io/images/5050/post/b184f9ee-5898-417b-96cc-41d8c2316c9f/image.png">
+
+- [ ] 첫 번째 convolution layer (C1)의 파라미터 수는 총 156개이다.
+- [ ] 두 번째 pooling layer (S2)의 파라미터 수는 총 0개이다.
+- [ ] 세 번째 convolution layer (C3)의 파라미터 수는 총 2016개이다.
+- [ ] 여섯 번째 full connection layer (F6)의 파라미터 수는 총 10164개이다.
+
+<details> <summary>정답</summary>
+<strong> RNN은 Input 길이에 비례하여 모델 Parameter를 증가시킨다. </strong>
+ 
+- CNN과 Convolution 연산 방법에 대한 기본적인 이해가 합니다.
+- 세 번째 convolution layer (C3)의 파라미터 수는, 아래 표에 나온 연산에 따라 총 2416개 입니다
+ 
+![mceclip0](https://user-images.githubusercontent.com/55238671/211156524-ff746344-cd21-4689-9e61-62bcc3dcfd24.png)
 </details>
