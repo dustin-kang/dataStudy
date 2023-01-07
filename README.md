@@ -45,7 +45,7 @@
 ## Deep Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/DL) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 
-- [딥러닝 기본 용어 설명](https://github.com/dustin-kang/dataStudy/blob/main/DL/lesson/001_딥러닝_기본_용어.md)
+- [딥러닝 기본 용어 설명](https://github.com/dustin-kang/dataStudy/blob/main/DL/lesson/000_딥러닝_기초.md)
 - []()
 
 #### 🚀 Quiz
