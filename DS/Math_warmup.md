@@ -6,6 +6,9 @@
 - [벡터의 이해 문제](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#3)
 - [자연로그 문제](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#4)
 - [조건부 확률](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#5)
+- [편미분](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#6)
+- [조건부 확률](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#7)
+- [지수함수 미분 문제](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math_warmup.md#8)
 ---
 ## #1
 #### 다음의 조건을 만족하는 행렬 $C$의 차원(Demension)은?
@@ -98,7 +101,7 @@
 
 ## #6
 #### 아래 수식의 물음표에 들어갈 것으로 적절한 것은?
-> $$ f(x,y) = xy^2, \frac{\partial f}{\partial x} ?  $$
+> $$ f(x,y) = xy^2, \frac{\partial f}{\partial x} =  ?  $$
 
 - [ ] $2xy$
 - [ ] $2y$
@@ -113,3 +116,41 @@
 </details>
 
 - [편미분 - 위키백과](https://ko.wikipedia.org/wiki/편미분)
+
+---
+
+## #7
+#### 아래 네모에 들어갈 것으로 적절한 것은
+> $$ P(x_1, x_2, x_3 = P(x_1| x_2,x_3) \times \Box \times P(x_3)  $$
+
+
+<details> <summary>정답</summary>
+<strong> P(x2|x3) </strong>
+𝑃(x1,x2,x3) = 𝑃(x1∩x2∩x3) <br>
+= 𝑃(x1∩(x2∩x3)) <br>
+= 𝑃(x1|x2∩x3)𝑃(x2∩x3) <br>
+= 𝑃(x1|x2,x3)𝑃(x2,x3) <br>
+= 𝑃(x1|x2,x3)𝑃(x2|x3)𝑃(x3)
+</details>
+
+- [조건부 확률 - 정보를 공유하는 학습장](https://doctorinformationgs.tistory.com/107)
+
+---
+
+## #8
+#### 물음표에 들어갈 것으로 적절한 것은?
+> $$ f(x) = e^x, f'(x) = ? $$
+
+- [ ] $e^x$
+- [ ] $e^{x-1}$
+- [ ] $xe^x$
+- [ ] $xe^{x-1}$
+
+<details> <summary>정답</summary>
+<strong>1번</strong>
+지수함수 미분에 관한 문제이며 도함수를 통해 증명할 수 있습니다. 
+
+</details>
+
+- [편미분 - 위키백과](https://ko.wikipedia.org/wiki/편미분)
+- [지수함수 미분 공식 - 이성근쌤의 메가마인드수학](https://blog.naver.com/biomath2k/221871324264)
