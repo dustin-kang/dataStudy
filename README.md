@@ -17,7 +17,7 @@
 #### Math
 - [선형대수와 선형 시스템](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/001l_선형대수와_선형시스템.ipynb)
 - [선형 결합, 선형 독립, 부분공간의 기저와 차원](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/002l_선형결합과_선형독립.ipynb)
-- [선형 변환]()
+- [선형 변환](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/004l_선형변환.md)
 - [베이즈 통계학 기초](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/004l_베이즈_통계학_맛보기.md)
 
 #### 🚀 Quiz
