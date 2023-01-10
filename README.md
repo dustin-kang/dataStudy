@@ -46,7 +46,7 @@
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/DL) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 
 - [딥러닝 기본 용어 설명](https://github.com/dustin-kang/dataStudy/blob/main/DL/lesson/000_딥러닝_기초.md)
-- []()
+- [딥러닝 최신 동향 2021](https://github.com/dustin-kang/dataStudy/blob/main/DL/딥러닝_트렌드_2021.md)
 
 #### 🚀 Quiz
 - [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md)
