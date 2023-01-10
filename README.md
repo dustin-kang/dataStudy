@@ -57,6 +57,7 @@
 #### Python Basic 
 - [Data Structure](https://github.com/dustin-kang/dataStudy/blob/main/Python/lesson/001_data_structure.md)
 - [Object Oriented Programming(OOP)](https://github.com/dustin-kang/dataStudy/blob/main/Python/lesson/002_Python_object.md)
+- [Module and Package](https://github.com/dustin-kang/dataStudy/blob/main/Python/lesson/003_module_project.md)
 #### Python Data
 
 
