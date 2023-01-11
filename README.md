@@ -9,7 +9,7 @@
 - [P.S.](https://github.com/dustin-kang/dataStudy#ps)
 
 ## Data Science
-[📘]() / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
+[📘](https://github.com/dustin-kang/dataStudy/tree/main/DS) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 #### NoteBook
 - [Numpy Basis](https://github.com/dustin-kang/dataStudy/blob/main/DS/Numpy/001_numpy.md)
 - [Pandas Wiki]()
