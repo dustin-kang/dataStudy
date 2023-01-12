@@ -25,6 +25,8 @@ for i in range(10):
         print("Not Division by 0")
 ```
 
+<img src="https://user-images.githubusercontent.com/55238671/212086234-91929d29-6587-4b7e-a0f8-f17dc40937b9.png" width=400>
+
 > 🔍 모든 예외는 BaseException에서 상속되므로 이 예외를 사용하여 서비스를 수행할 수 있습니다. 
 가장 부모가 되는 에러를 하단으로 정해둡니다.
 
