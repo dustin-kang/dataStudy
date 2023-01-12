@@ -1,4 +1,4 @@
-# Exception Handling
+# File Handling
 > - **File System** : OS에서 파일을 저장하는 **트리구조** 저장 체계
 > - **Binary File** : 이진법 형식으로 저장된 파일, _e.g. Excel, Words_
 > - **Text File** : 문자열 형식으로 저장된 파일 _e.g. Txt, HTML, py_
@@ -7,6 +7,9 @@
 
 ## 파일 읽기
 - 대상파일이 **같은 디렉토리 경로에 있는 경우** 가능합니다.
+
+<img width="660" alt="image" src="https://user-images.githubusercontent.com/55238671/212094780-c6203a53-c1fc-4e20-915b-e164cdd2d1da.png">
+
 
 ### 실행 시 마다 한 줄 씩 읽어오기
 ```py
@@ -52,6 +55,7 @@ lidt(cwd.glob("*")) # 폴더 안 정보 확인
 - 데이터나 오브젝트등 실행중 정보를 저장하거나 불러와서 사용할 때 사용
 - 주로, 정보나 계산 또는 모델 등 활용이 많습니다.
 
+<img src="https://user-images.githubusercontent.com/55238671/212094621-ff8241ff-e964-47f4-a6ea-7ebc3fde7bf2.png" width=500>
 
 > 🔍 데이터베이스 영역에서의 부호화는 트랜잭션의 순서를 맞추는 용어로 사용되기도 합니다.
 ```py
