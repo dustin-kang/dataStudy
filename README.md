@@ -39,7 +39,21 @@
 - [PCA와 차원축소](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/004_PCA와_차원축소.md)
 - [클러스터링(군집화)과 K-Mean 클러스터링](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/005_클러스터링과_Kmean알고리즘.md)
 #### 지도학습 
-- [회귀모델과 평가지표](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/011_회귀모델과_평가지표.md)
+- [회귀 모델과 평가지표](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/011_회귀모델과_평가지표.md)
+- 선형회귀(Linear Regression)
+- 릿지, 라쏘 회귀(Ridge Regression, Lasso Regression)
+- 분류 모델과 평가지표(Classification, Metric, Confusion Matrix)
+- 특성 중요도(Feature Importance)
+- 로지스틱 회귀(Logistic Regression)
+- 최적화(HyperParmeter Tuning)
+- 모델 해석(Model Interpreting) 
+- 결정트리(Decision Tree)
+- 서포트 벡터 머신(Support Vector Machine)
+- K 이웃 알고리즘(KNN)
+- 앙상블 (Ensemble)
+- 랜덤 포레스트 (Randome Forest)
+- XGBoost
+
 #### 🚀 Quiz
 - [Warm-up]()
 
