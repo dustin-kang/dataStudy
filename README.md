@@ -40,8 +40,8 @@
 - [클러스터링(군집화)과 K-Mean 클러스터링](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/005_클러스터링과_Kmean알고리즘.md)
 #### 지도학습 
 - [회귀 모델과 평가지표](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/011_회귀모델과_평가지표.md)
-- 선형회귀(Linear Regression)
-- 릿지, 라쏘 회귀(Ridge Regression, Lasso Regression)
+- [선형회귀(Linear Regression)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/012_Regression_선형회귀.md)
+- [릿지, 라쏘 회귀(Ridge Regression, Lasso Regression)]()
 - 분류 모델과 평가지표(Classification, Metric, Confusion Matrix)
 - 특성 중요도(Feature Importance)
 - 로지스틱 회귀(Logistic Regression)
