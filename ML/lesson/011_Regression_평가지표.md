@@ -4,19 +4,27 @@
 
 > #### 피어슨 상관계수 (Pearson Correlation)
 > 피어슨 상관계수는 선형 관계의 강도와 방향을 나타내며 -1부터 1사이의 값을 표시합니다. (0에 가깝다면 선형적 관계가 없다는 겁니다. 그러나 비선형적 관계를 가질 수도 있습니다.)
+> 
+> <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDxp4J%2FbtqCsIidh0q%2FaYvZ2Z8sdIaTd6IV4958b1%2Fimg.png" width=300>
 
 ## 회귀 모델
 최적의 회귀 모델은 가장 잘맞는 최적의 선을 긋는 모델입니다. 여기서, **최적의 선**은 **잔차(residual) 제곱의 합의 최소화**하는 직선을 의미하는데요. 이를 회귀선이라고 부릅니다. 
 
 > - 잔차(residual) : 예측값 - 실제 관측값 (비용 또는 손실이라 생각하면 됩니다.)
 > - 잔차 제곱의 합(RSS: Residual sum of Squares = SSE)
-> $$ RSS = \sum_{i=1}^n (y_i - (\alpha x_i + \beta))^2 $$
+> $$RSS = \sum_{i=1}^n (y_i - (\alpha x_i + \beta))^2$$
 > - 즉, 잔차 제곱의 합을 최소화 해야하기 때문에 **회귀 모델의 비용함수**가 되는 거죠.
+
+<img width="284" alt="image" src="https://user-images.githubusercontent.com/55238671/212865134-deadf539-cf7b-44ee-9483-25bbfbc376a2.png">
+
 
 ## 최소 제곱법(OLS, Ordinary Least Squares)
 최소 제곱법이 갑자기 등장했을 거라 생각하지만, 잔차 제곱의 합을 최소화하는 방법을 최소 제곱합 또는 최소자승법이라고 부릅니다. 즉, **최소 제곱법으로 데이터를 잘 표현하는 선형 회귀선을 그릴 수 있는겁니다.**
 
 이 공식을 통해서 최소화하는 변수(가중치)를 추정할 수 있습니다.
+
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/55238671/212865192-5a52f506-9b5f-4e4f-8fb1-adb197751968.png">
+
 
 > 💡 OLS는 이상치에 영향력이 크기 때문에 이상치가 있는 경우에는 그다지 좋지 않습니다. 왜냐하면 전체 합에 영향을 주기 때문이죠.
 >
@@ -73,6 +81,8 @@ $$ 1 - \frac{\sum_{i=1}^n(y_i -\hat y_i)^2}{\sum_{i=1}^n(y_i -\bar y_i)^2} = 1 -
 - 표본의 크기는 $n$, 독립변수의 수는 $p$로 정의합니다.
 - 주로 단순 회귀보다 다중 회귀 분석에서 이 식이 사용됩니다. 
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbzVAKA%2FbtqAZPjxN7O%2FRfR1KgULS95W2ETHkueYX1%2Fimg.png">
+
 $$ AdjR^2 = 1 - \frac{n -1}{(n-p-1)(1-R^2)} $$
 
 > 결정계수는 독립변수의 개수가 많아질수록 결정계수가 1에 가까워집니다.
@@ -83,3 +93,7 @@ $$ AdjR^2 = 1 - \frac{n -1}{(n-p-1)(1-R^2)} $$
 - [🔗 3 Best metrics to evaluate Regression Model? - Songhao Wu](https://towardsdatascience.com/what-are-the-best-metrics-to-evaluate-your-regression-model-418ca481755b)
 - [📼 How to calculate linear regression using least square method](https://www.youtube.com/watch?v=JvS2triCgOY)
 - [📼 An Introduction to Linear Regression Analysis](https://www.youtube.com/watch?v=zPG4NjIkCjc)
+- [🔗 Python Data Science Handbook, Chapter 5.2: Introducing Scikit-Learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html#Basics-of-the-API)
+- [🔗 2.4.2.2. Supervised Learning](https://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/tutorial/text_analytics/general_concepts.html#supervised-learning-model-fit-x-y)
+- [🔗 sklearn.linear_model.LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+- [🔗 sklearn.metrics.mean_absolute_error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html)
