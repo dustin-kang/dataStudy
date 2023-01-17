@@ -13,8 +13,18 @@
 #### NoteBook
 - [Numpy Basis](https://github.com/dustin-kang/dataStudy/blob/main/DS/Numpy/001_numpy.md)
 - [Pandas Wiki]()
-- []()
-#### Math
+
+#### 수학 기초
+- 함수
+- 다항함수, 지수함수, 로그함수, 삼각함수
+- 극한과 연속
+
+
+#### 미분 적분
+
+#### 벡터 행렬
+
+#### 통계학
 - [벡터](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/000l_벡터.md)와 [행렬](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/000l_헹렬.md)
 - [선형대수와 선형 시스템](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/001l_선형대수와_선형시스템.ipynb)
 - [선형 결합, 선형 독립, 부분공간의 기저와 차원](https://github.com/dustin-kang/dataStudy/blob/main/DS/Math/002l_선형결합과_선형독립.ipynb)
