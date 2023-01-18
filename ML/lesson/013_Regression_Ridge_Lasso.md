@@ -35,7 +35,7 @@ $$ L2Loss = \sum^n_{i=1} (y_i - f(x_i))^2 $$
 
 - 이상치(Outlier)에 대해 민감합니다. 최소제곱법 아시죠? (Not very Robust)
 
-[💻 Ridge 회귀 실습]()
+[💻 Ridge 회귀 실습](https://github.com/dustin-kang/dataStudy/blob/main/ML/practice/008_Ridge.ipynb)
 
 ## ElasticNet
 
