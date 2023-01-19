@@ -36,11 +36,12 @@
 
 ## Machine Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/ML/lesson) / [💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice) / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
-#### 데이터 전처리
+#### 데이터 전처리 및 모델링
 - [인공지능과 머신러닝](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/001_인공지능과_머신러닝.md)
 - [데이터 세트](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/002_데이터_세트.md)
 - [모델 선택과 검증](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/006_모델_선택과_모델_검증.md)
-- [모델 평가와 개선](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md)
+- [모델 평가와 개선 (과대적합, 과소적합, 최적화)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md)
+- [모델 해석]()
 - [데이터 전처리 :  인코딩](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/003_데이터_전처리와_인코딩.md)
 - [데이터 전처리 : 스케일링(정규화)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/008_데이터_전처리와_스케일링.md)
 - [데이터 전처리 : 특성 선택](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/010_데이터_전처리와_특성선택.md)
@@ -55,8 +56,6 @@
 - [분류 모델과 평가지표(Classification, Metric, Confusion Matrix)]()
 - 특성 중요도(Feature Importance)
 - 로지스틱 회귀(Logistic Regression)
-- 최적화(HyperParmeter Tuning)
-- 모델 해석(Model Interpreting) 
 - 결정트리(Decision Tree)
 - 서포트 벡터 머신(Support Vector Machine)
 - K 이웃 알고리즘(KNN)
