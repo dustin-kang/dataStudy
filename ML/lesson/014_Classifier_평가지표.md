@@ -1,6 +1,8 @@
 # 분류 (Classifier)
 분류 모델은 **데이터를 카테고리 별로 나누는 모델**을 의미합니다. 명확하게 선으로 나눌 수 있는 **선형 모델**로는 로지스틱 회귀(Rogistic Regression), 서포트 벡터머신(SVM)이 있으며 불규칙하게 흩어진 데이터를 분류하기 위해서(**비선형 모델**)는 커널 서포트 벡터머신과 결정트리 kNN, 랜덤포레스트 등이 있습니다.
 
+<img width="486" alt="스크린샷 2023-01-19 오후 5 31 42" src="https://user-images.githubusercontent.com/55238671/213398635-7f790b0c-6e5e-4132-aa29-d66b55362c18.png">
+
 
 > ### 💡 기준 모델 (Baseline Model)
 > 모든 데이터가 항상 균형된 데이터라고 생각하시면 안됩니다. 가끔 분류 문제를 해결할 때 타겟 값이 **편중되어 있는 경우가 있기 때문**에 정확도라는 지표만으로 판단하면 안됩니다. _감염자와 비감염자 비율이 1:9니까 정확도 90%이라해서 좋은 성능이라고 판단하면 안됩니다._
@@ -38,9 +40,15 @@ $$ Categorical CrossEntropy = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}*\log(p_
 ### OvR 전략 (One-versus-the-Rest)
 - OvA(One-versus-all)이라고 하는 이 알고리즘은 각기 다른 N개의 이진 분류기를 실행 한 후  N개의 클래스를 가진 이미지 분류 시스템을 만드는 것입니다.
 
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/55238671/213398269-dcdbdc81-ea2e-4d66-b589-3443946da036.png">
+
+
 ### OvO 전략 (One-versus-One)
 - 각 숫자의 조합마다 이진 분류기를 실행한 후 가장 많이 선택된 클래스를 선택합니다.
 - $  N \text{클래스} = \frac{N *(N-1)}{2}  $
+
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/55238671/213398298-976169b2-6e89-4960-b654-eb2ab7a5788a.png">
+
 
 ```py
 # OVR, OVO를 강제로 사용할 수 있습니다.
@@ -78,6 +86,9 @@ $$ Accuracy = \frac{Same Predict}{Total Predict} $$
 
 ### 오차 행렬 (Confusion Matrix)
 
+<img width="737" alt="image" src="https://user-images.githubusercontent.com/55238671/213398344-56d782b1-2862-4ab0-b5e7-22f313d8d2c1.png">
+
+
 - 위 도표 처럼 주로 이진 분류에서 많이 사용하며 모델이 어떤 오류를 발생시켰는지 알 수 있습니다.
 
 ```py
@@ -105,6 +116,9 @@ cm
 - 정밀도는 예측을 긍정으로 한 데이터 중에서 실제로 긍정인 비율을 말합니다.
 - 재현율은 실제로 긍정인 데이터 중 예측을 긍정으로 한 비율을 말합니다.
 - 정밀도와 재현율은 트레이드 오프`TradeOff` 관계를 갖습니다. 그래도 가장 좋은 경우는 두 지표가 적당히 높을 때 인거겠죠?
+
+<img width="633" alt="image" src="https://user-images.githubusercontent.com/55238671/213398388-7c79c8dc-46e0-4e53-a018-c73bc7a95536.png">
+
 
 ### F1 Score
 
@@ -187,3 +201,4 @@ auc_score
 - [📼 Precision, Recall & F-Measure](https://www.youtube.com/watch?v=j-EB6RqqjGI)
 - [📼 Making sense of the confusion matrix](https://www.youtube.com/watch?v=8Oog7TXHvFY)
 - [🔗 Classification metrics](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks#classification-metrics)
+- [💻 평가지표 실습자료]()
