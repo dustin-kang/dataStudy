@@ -201,4 +201,5 @@ auc_score
 - [📼 Precision, Recall & F-Measure](https://www.youtube.com/watch?v=j-EB6RqqjGI)
 - [📼 Making sense of the confusion matrix](https://www.youtube.com/watch?v=8Oog7TXHvFY)
 - [🔗 Classification metrics](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks#classification-metrics)
+- [🔗 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/08/05/ROC.html)
 - [💻 평가지표 실습자료]()
