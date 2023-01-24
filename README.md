@@ -1,7 +1,7 @@
 # Repository of Data Knowledge 🤖
 - 데이터 분야 지식 정리 공간
 
-## Tabloe of Contents
+## Table of Contents
 - [Data Science](https://github.com/dustin-kang/dataStudy#data-science)
 - [Machine Learning](https://github.com/dustin-kang/dataStudy#machine-learning)
 - [Deep Learning](https://github.com/dustin-kang/dataStudy#deep-learning)
@@ -69,8 +69,10 @@
 ## Deep Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/DL) / [💻]() / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 
-- [딥러닝 기본 용어 설명](https://github.com/dustin-kang/dataStudy/blob/main/DL/lesson/000_딥러닝_기초.md)
-- [딥러닝 최신 동향 2021](https://github.com/dustin-kang/dataStudy/blob/main/DL/딥러닝_트렌드_2021.md)
+#### 딥러닝 기초
+|순서|제목|태그|수정일|
+|:---:|:---:|:---:|:---:|
+|1|퍼셉트론과 인공신경망|`perceptron` `ANN` `MLP`|230124|
 
 #### 🚀 Quiz
 - [Warm-up](https://github.com/dustin-kang/dataStudy/blob/main/DL/dl_warmup.md)
