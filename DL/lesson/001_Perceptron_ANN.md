@@ -3,6 +3,9 @@
 # 퍼셉트론(Perceptron)
 > 신경망을 이루는 가장 기본적인 단위로 **다수의 신호를 입력받아 하나의 신호를 출력하는 구조** 입니다.
 
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/55238671/214320918-465db793-669d-4659-923d-463a7e990921.png">
+
+
 ## 1단계) 가중합 (Weighted Sum)
 입력된 신호(X)에 가중치(w)를 곱하고 그 결과들을 합하여 반환하는 단계
 $$ \sum(b + w_0x_0 + w_1x_1 + ... + w_nx_n)$$
@@ -29,6 +32,9 @@ np.dot(input, weight) # 내적 연산을 통해서 가중합이 이루어집니�
 
 - 모든 활성화 함수는 비선형 함수 입니다. 선형함수는 아무리 깊게 쌓아도 같은 형태이기 때문에 이점을 못 살리기 때문이죠.
 
+<img width="616" alt="image" src="https://user-images.githubusercontent.com/55238671/214321632-5fb8069a-12a6-4acf-b6bb-4a37499ea6ca.png">
+
+
 |종류|배경|특징|
 |:---:|:---:|:---:|
 |계단함수 (Step)||0을 넘기면 1, 그렇지 않으면 0 (임계값 지점(0.5)은 미분이 불가능)|
@@ -51,6 +57,9 @@ np.dot(input, weight) # 내적 연산을 통해서 가중합이 이루어집니�
 > - 딥러닝 기술은 인공 신경망의 층을 **깊게 쌓은 것**을 가리 킵니다.
 > - 그리고 **인공 신경망**은 퍼셉트론을 여러 층을 쌓아서 만든 것 입니다.
 > - 이렇게 퍼셉트론을 여러 층을 쌓아 구축한 신경망을 **다층 퍼셉트론 신경망(MLP)** 이라고 합니다.
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/55238671/214321676-82b430c3-a284-447b-b08d-52a2abe584ab.png">
+
 
 ## 입력층 (Input Layer)
 > 값을 전달하는 역할을 합니다.
@@ -79,6 +88,7 @@ np.dot(input, weight) # 내적 연산을 통해서 가중합이 이루어집니�
 |회귀 |X|출력값의 특성(Feature) 수와 동일|`mse`|
 
 
-[🔗 Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.84579&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
-[🔗 다양한 신경망의 구조들 - the Neural Network Zoo](https://www.asimovinstitute.org/neural-network-zoo/)
-[💻 MNIST 손글씨 예제 실습]()
+# Reference
+- [🔗 Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.84579&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+- [🔗 다양한 신경망의 구조들 - the Neural Network Zoo](https://www.asimovinstitute.org/neural-network-zoo/)
+- [💻 MNIST 손글씨 예제 실습]()
