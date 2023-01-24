@@ -4,6 +4,10 @@
 
 
 ## 로짓 변환 (Logit Transformation)
+
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/55238671/214308945-1b44783c-2bb6-4c37-ac60-7bf3f0365b5f.png">
+
+
 - 회귀 계수의 의미를 해석하기 위해 `로짓변환`을 사용하여 비선형 함수를 선형함수로 바꿉니다. 
 - 오즈에 로그를 취한 방식이라고 생각하시면 됩니다.
 
