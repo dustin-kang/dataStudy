@@ -63,7 +63,7 @@ display(graphviz.Source(dot_data))
 - `max_depth` : 트리의 **전체적인 깊이**를 설정
 
 
-> 📌 나뭇가지가 많아지면 [과적합(Overfitting)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md#과대적합overfitting)이 일어날 확률이 높습니다.
+> 📌 나뭇가지가 많아지면 [과적합(Overfitting)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md#과대적합overfitting)이 일어날 확률이 높습니다. (데이터르 세밀하게 나누면 카테고리 범위가 좁아져 부정확한 예측이 발생할 수 있습니다. 
 
 # Reference
 - [🔗 DecisionTree Classifier 공식문서](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier)
