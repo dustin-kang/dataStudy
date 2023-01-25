@@ -56,7 +56,7 @@
 - [분류 모델과 평가지표(Classification, Metric, Confusion Matrix)]()
 - [로지스틱 회귀(Logistic Regression)]()
 - 서포트 벡터 머신(Support Vector Machine)
-- 결정트리(Decision Tree)
+- [결정트리(Decision Tree)]()
 - [특성 중요도(Feature Importance)]()
 - K 이웃 알고리즘(KNN)
 - 앙상블 (Ensemble)
