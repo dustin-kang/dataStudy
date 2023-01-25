@@ -2,6 +2,8 @@
 > - 앙상블은 여러개의 **기본 모델(Weak Learner)들을 결합**하여 **하나의 좋은 성능을 지닌 모델(Strong Learner)** 로 만들어 내는 것을 의미합니다. (정확도가 낮은 약한 모델을 조합하여 정확도를 높이는 방법)
 > - 대표적으로 `Bagging`, `Boosting`, `Stacking`이 있습니다. 
 
+<img src="https://velog.velcdn.com/images/qqo222/post/1dcd1b5a-72b2-4c2f-abff-21895385beff/image.png" width=500>
+
 ## 배깅(Bagging)
 > 부트스트랩을 통해 샘플을 **여러개 뽑아**(부트스트랩, 복원랜덤 샘플링) 각 모델을 학습 시켜 결과물을 **집계**(Aggregation)하는 방식 입니다.
 
