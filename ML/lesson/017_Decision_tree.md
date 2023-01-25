@@ -2,12 +2,17 @@
 
 > 결정트리는 이전 로지스틱 회귀(Logistic Regression)과 다르게 **비선형 모델**이며 비용함수를 최소화하도록 **노드를 분할하는 알고리즘** 입니다.
 
+<img src="https://user-images.githubusercontent.com/55238671/214507276-693775b6-0556-43e5-af82-f6a55bacf9e1.jpg" width=500>
+
+
 - 결정트리 구조는 특정 수치를 가지고 질문에 대한 답을 찾아가는 스무고개와 비슷한 방식입니다. 
 - 결정트리는 회귀, 분류 문제에 둘다 적용이 가능합니다.
 - [🔗 결정트리 확인하기](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 ## 순도와 불순도
 결정트리를 이용해 노드를 분할하기위해 **지니불순도(Gini Impurity)** 라는 개념을 이해해야 합니다. _이는 정보이득(IG)와 의미적으로 동일한 말입니다._
+
+<img src="https://user-images.githubusercontent.com/55238671/214506838-30cd10e2-c6e3-4032-ba8c-be8f258957a2.png" width=500>
 
 > - 정보획득 = 엔트로피 감소량
 > - 불순도 = 엔트로피
@@ -58,7 +63,7 @@ display(graphviz.Source(dot_data))
 - `max_depth` : 트리의 **전체적인 깊이**를 설정
 
 
-> 📌 나뭇가지가 많아지면 [과적합(Overfitting)]()이 일어날 확률이 높습니다.
+> 📌 나뭇가지가 많아지면 [과적합(Overfitting)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md#과대적합overfitting)이 일어날 확률이 높습니다.
 
 # Reference
 - [🔗 DecisionTree Classifier 공식문서](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier)
