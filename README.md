@@ -59,9 +59,9 @@
 - [결정트리(Decision Tree)]()
 - [특성 중요도(Feature Importance)]()
 - K 이웃 알고리즘(KNN)
-- 앙상블 (Ensemble)
-- 랜덤 포레스트 (Randome Forest)
-- XGBoost
+- [앙상블 (Ensemble)]()
+- 랜덤 포레스트 (Randome Forest) - 배깅
+- XGBoost - 부스팅
 
 #### 🚀 Quiz
 - [Warm-up]()
