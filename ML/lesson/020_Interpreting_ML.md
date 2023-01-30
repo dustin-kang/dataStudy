@@ -16,6 +16,9 @@ from pdpbox.pdp import pdp_isolate, pdp_plot
 - 하나의 관측치에 대해 특성을 변화하고 이에 따른 타켓의 변화 곡선을 말합니다.
 - 이 ICE 곡선들의 평균이 PDP 입니다. [🔗](https://twitter.com/i/status/1066398522608635904)
 
+
+![Untitled1](https://user-images.githubusercontent.com/55238671/215487942-4ab5f3d0-6c5c-47d3-838c-606cecdae70a.png)
+
 ```py
 feature = 'annual_inc' #확인할 특성
 
@@ -41,6 +44,10 @@ X_val_encoded['annual_inc'].value_counts() # 아래 바코드 모양처럼 데�
 ```
 
 ## 두 특성간 상호 작용
+
+![Untitled](https://user-images.githubusercontent.com/55238671/215488003-34ade96b-a649-4070-b363-eef7a392d7b4.png)
+
+
 ```py
 from pdpbox.pdp import pdp_interact, pdp_interact_plot
 
@@ -162,6 +169,9 @@ import shap
 - `shap`을 통해 도표를 시각화 할 수 있습니다.
 
 ## Force plot
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/55238671/215487889-bff1b221-a498-4eb1-9876-095d6945e0f0.png">
+
 
 ```py
 row = X_test.iloc[[1]] # 결과물이 DataFrame을 나오게 특성의 범위를 지정합니다.
