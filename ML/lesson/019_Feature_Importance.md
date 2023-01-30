@@ -30,8 +30,11 @@ importances = pd.Series(model.feature_importances, X_train.columns) # 특성 중
 plt.figure(figsize=(10, 20)) # 시각화 생성
 importances.sort_value()[-10:].plot.barh(); # 불순도가 큰 상위 10위까지 시각화
 ```
+
+![Untitled](https://user-images.githubusercontent.com/55238671/215466860-a6f62894-6463-4573-961c-701a8fb12829.png)
+
 > ### 🔍 특성상호작용(Feature interactions)
-> <img src="" width=400>
+> <img width="715" alt="image" src="https://user-images.githubusercontent.com/55238671/215466755-aae240bd-3fe2-4deb-8cad-dbfcfe4a1712.png">
 > 
 > - 특성 중요도가 높은 특성들은 특성 상호 작용이 크게 있습니다. 즉, 시너지 효과라고 생각하시면 편합니다. 아래 데이터에서 볼 수 있듯이 **상호 작용이 있는 경우** 선형모델은 성능이 감소 하지만 **[결정트리]()는** 별 이상이 없습니다. 이유는 결정트리가 출력(Output)만 다를 뿐 **정확도에 영향을 받지 않는 Rule-Based Model 이기 때문입니다.**
 >
@@ -85,7 +88,7 @@ import eli5
 from eli5.sklearn import Permutation Importance
 ```
 
-### Permuter 정의하고 score 계산하기
+### `Permuter` 정의하고 score 계산하기
 ```py
 import eli5
 from eli5.sklearn import PermutationImportance
@@ -109,7 +112,7 @@ pd.Series(permuter.feature_importances_, feature_names).sort_values()
 # 중요도가 낮은 값부터 나오게 됩니다. 
 ```
 
-### `show_weights`로 높은 값 정렬하기, Feature Selection
+### [`show_weights`](https://eli5.readthedocs.io/en/latest/autodocs/eli5.html#eli5.show_weights)로 높은 값 정렬하기, Feature Selection
 ```py
 # 특성별 score 확인
 eli5.show_weights(
