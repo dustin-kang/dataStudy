@@ -94,3 +94,4 @@
 [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
 - [라이브러리 치트 시트](https://github.com/dustin-kang/dataStudy/tree/main/PS/Sheet)
 - [아나콘다 설치 방법](https://github.com/dustin-kang/dataStudy/blob/main/PS/HowtoInstallAnaConda.md)
+- [머신러닝 딥러닝 기술면접](https://yongwookha.github.io/MachineLearning/2021-01-29-interview-question)
