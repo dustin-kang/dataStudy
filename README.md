@@ -36,32 +36,33 @@
 
 ## Machine Learning
 [📘](https://github.com/dustin-kang/dataStudy/tree/main/ML/lesson) / [💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice) / [🌐]() / [🔝](https://github.com/dustin-kang/dataStudy#repository-of-data-knowledge-)
-#### 데이터 전처리 및 모델링
-- [인공지능과 머신러닝](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/001_인공지능과_머신러닝.md)
-- [데이터 세트](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/002_데이터_세트.md)
-- [모델 선택과 검증](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/006_모델_선택과_모델_검증.md)
-- [모델 평가와 개선 (과대적합, 과소적합, 최적화)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md)
-- [모델 해석]()
-- [데이터 전처리 :  인코딩](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/003_데이터_전처리와_인코딩.md)
-- [데이터 전처리 : 스케일링(정규화)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/008_데이터_전처리와_스케일링.md)
-- [데이터 전처리 : 특성 선택](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/010_데이터_전처리와_특성선택.md)
-- [데이터 전처리 : 파이프라인과 결측치 변환](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/009_데이터_전처리와_파이프라인.md)
-#### 비지도학습
-- [PCA와 차원축소](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/004_PCA와_차원축소.md)
-- [클러스터링(군집화)과 K-Mean 클러스터링](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/005_클러스터링과_Kmean알고리즘.md)
-#### 지도학습 
-- [회귀 모델과 평가지표](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/011_회귀모델과_평가지표.md)
-- [선형회귀(Linear Regression)](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/012_Regression_선형회귀.md)
-- [릿지, 라쏘 회귀(Ridge Regression, Lasso Regression)]()
-- [분류 모델과 평가지표(Classification, Metric, Confusion Matrix)]()
-- [로지스틱 회귀(Logistic Regression)]()
-- 서포트 벡터 머신(Support Vector Machine)
-- [결정트리(Decision Tree)]()
-- [특성 중요도(Feature Importance)]()
-- K 이웃 알고리즘(KNN)
-- [앙상블 (Ensemble)]()
-- [랜덤 포레스트 (Randome Forest) - 배깅]()
-- XGBoost - 부스팅
+
+|순서|제목|태그|이론|실습|
+|:---:|:---:|:---:|:---:|:---:|
+|1|인공지능과 머신러닝|`인공지능` `머신러닝`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/001_인공지능과_머신러닝.md)||
+|2|데이터 세트|`정형데이터` `학습데이터` `훈련곡선` `검증곡선`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/002_데이터_세트.md)||
+|3|데이터 전처리 : 인코딩|`데이터 랭글링` `원핫인코더` `순서형인코더`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/003_데이터_전처리와_인코딩.md)||
+|4|데이터 전처리 : 스케일링|`MinMaxScaler` `Z-ScoreScaler`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/008_데이터_전처리와_스케일링.md)||
+|5|데이터 전처리 : 특성선택|`차원의저주` `Wrapped Method` `Embedded` `Filter`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/010_데이터_전처리와_특성선택.md)|[💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice)|
+|6|데이터 전처리 : 파이프라인과 결측치 처리|`Imputer` `Pipeline`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/009_데이터_전처리와_파이프라인.md)||
+|7|모델 선택과 검증|`좋은모델` `하이퍼 파라미터` `교차검증`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/006_모델_선택과_모델_검증.md)||
+|8|모델 평가와 개선|`과적합` `분산편향트레이드오프` `GridSearch` `RandonizedSearch` `최적화`|[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/007_모델_평가와_모델_개선.md)||
+|9|모델 해석|`PDP` `SHAP` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/020_Interpreting_ML.md)||
+|10|PCA와 차원축소|`차원의 저주` `특성 축소` `PCA` `Screeplot` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/004_PCA와_차원축소.md)|[💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice)|
+|11|클러스터링과 KMean|`군집화` `KMean` `계층적 군집화` `Mean Shift` `유사도` `실루엣 분석` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/005_클러스터링과_Kmean알고리즘.md)|[💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice)|
+|12|회귀 모델과 평가지표|`RSS(잔차제곱합)` `OLS(최소제곱법)` `MAE` `RMSE` `R-Squared` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/011_Regression_평가지표.md)||
+|13|선형 회귀|`단순 선형회귀` `다중 선형회귀` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/012_Regression_선형회귀.md)|[💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice)|
+|14|릿지 라쏘 회귀|`Ridge` `Lasso` `ElasticNet` `Norm` `정규화` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/013_Regression_Ridge_Lasso.md)|[💻](https://github.com/dustin-kang/dataStudy/tree/main/ML/practice)|
+|15|분류 모델과 평가지표|`이진분류` `다중분류` `OvR, OvO` `오차행렬` `F1Score` `ROC-Curve` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/014_Classifier_평가지표.md)||
+|16|로지스틱 회귀|`로짓 변환` `시그모이드 함수` `로지스틱 회귀` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/015_Logistic_Regression.md)||
+|17|KNN|`KNN` `유클리디안 거리`  |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/016_KNN.md)||
+|18|SVM(서포트 벡터 머신)|`SVM` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/016_KNN.md)||
+|19|결정트리 (Decision Tree)|`지니불순도` `결정트리` `규칙기반` `표준화 없음` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/017_Decision_tree.md)||
+|20|특성 중요도|`특성중요도` `특성상호작용` `순열즁요도` `eli5` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/019_Feature_Importance.md)||
+|21|앙상블 (Ensemble)|`배깅` `부스팅` `스태킹` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/018_Ensemble.md)||
+|22|랜덤 포레스트 (Random Forest)|`배깅` `랜덤성` `랜덤 포레스트` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/021_randomforest.md)||
+|23|XGBoost|`부스팅` |[📄]()||
+|24|여러가지 문제 해결 방법|`배깅` `랜덤성` `랜덤 포레스트` |[📄](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/021_randomforest.md)||
 
 #### 🚀 Quiz
 - [Warm-up]()
