@@ -1,7 +1,7 @@
 # 랜덤 포레스트
 > [앙상블](https://github.com/dustin-kang/dataStudy/blob/main/ML/lesson/018_Ensemble.md#앙상블ensemble) 방법 중 **배깅(Bagging)** 에 해당하는 대표적인 예입니다.
 
-
+<img src="https://user-images.githubusercontent.com/55238671/215721310-a1290494-aa7f-499e-8cd1-9719e534e14b.png" width=400>
 
 랜덤포레스트는 트리들의 **편향을 유지**하면서, 여러 데이터셋 또는 경우에 대해 학습하기 때문에 **분산을 감소** 시킬 수 있다는 특징이 있씁니다. 이 때문에 랜덤 포레스트는 과적합 방지에 강한 모델입니다. 
 
